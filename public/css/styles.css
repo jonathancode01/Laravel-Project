@@ -43,17 +43,28 @@ header{
     padding: 10px;
 }
 
+#info-container .already-joined-msg {
+    margin: 15px 0;
+    color: #004085;
+    background-color: #c6e5ff;
+    border: 1px solid #b8daff;
+    padding: 10px;
+    width: 275px;
+}
+
 
 /* nav bar */
 
 #navbar img{
     width: 40px;
+    margin-left: 25px;
 }
 
 #navbar {
     justify-content: space-between;
     background-color: #FFF;
     padding: 5px 0;
+    margin-right: 25px;
 }
 
 #navbar a{
@@ -107,12 +118,14 @@ header{
 }
 
 #events-container .card{
-    flex: 1 1 0;
+    flex: 1 1 24%;
     max-width: 25%;
     border-radius: 10px;
     padding: 0;
-    margin: 5px;
+    margin: .5%;
 }
+
+
 
 #events-container img{
     max-height: 150px;
@@ -136,6 +149,80 @@ header{
     font-size: 14px;
     color: #757575;
 }
+
+
+
+/* PAGINA DE EVENTO */
+
+#image-container,
+#info-container{
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #F2A340;
+    margin-right: 5px;
+}
+
+#info-container event-submit {
+    margin: 20px 0;
+}
+
+#items-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li{
+    display: flex;
+}
+
+
+/* dash board */
+
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+/* edit da page */
+
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
+}
+
 
 /* footer */
 
