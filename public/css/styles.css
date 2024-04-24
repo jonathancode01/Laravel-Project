@@ -29,8 +29,6 @@ body{
     height: auto; /* Mantém a proporção */
 }
 
-
-
 .row {
     margin: 0;
 }
@@ -73,15 +71,16 @@ body{
 /* nav bar */
 
 #navbar img{
-    width: 75px;
+    width: 100px;
     margin-left: 25px;
 }
 
 #navbar {
     justify-content: space-between;
     background-color: transparent;
-    padding: 5px 0;
-    margin-right: 25px;
+    padding: 0px 200px;
+    margin-right: -170px;
+    margin-left: -100px;
 }
 
 #navbar a{

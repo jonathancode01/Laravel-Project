@@ -24,11 +24,11 @@
                     <img src="/img/prime.png" alt="HDC Events">
                 </a>
                 <div >
-                <h1  style = "padding-left: 70%;
+                <h1  style = "
                 font-size: 2.5rem;
                 display: grid;
                 justify-content: center;
-                margin-bottom: -1.5rem;" >Prime Eventos</h1>
+                margin-bottom: -0.5rem;" >Prime Eventos</h1>
                 </div>
                 <ul class="navbar-nav" style="font-size: 140%;">
                     <li class="nav-item">
