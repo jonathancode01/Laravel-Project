@@ -4,15 +4,32 @@
 }
 
 body{
+    background-color: #f4f4f4;
     min-height: 100vh;
     padding-bottom: 100px;
     position: relative;
 }
 
-header{
-    background-color: #FFF;
-    border-bottom: 1px solid #CCC;
+.navbar {
+    background: linear-gradient(to right, #20b2aa, #007b8a); /* Gradiente de verde-mar */
+    padding: 20px; /* Espaçamento interno */
+    color: white; /* Cor do texto */
 }
+
+.text-center {
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem; /* Espaçamento inferior */
+}
+
+.navbar-brand img {
+    max-width: 100px; /* Define a largura máxima para o logo */
+    height: auto; /* Mantém a proporção */
+}
+
+
 
 .row {
     margin: 0;
@@ -56,20 +73,20 @@ header{
 /* nav bar */
 
 #navbar img{
-    width: 40px;
+    width: 75px;
     margin-left: 25px;
 }
 
 #navbar {
     justify-content: space-between;
-    background-color: #FFF;
+    background-color: transparent;
     padding: 5px 0;
     margin-right: 25px;
 }
 
 #navbar a{
-    font-size: 14px;
-    color:  #757575;
+    font-size: 115%;
+    color:  #ffff;
 }
 
 #navbar a:hover{
@@ -79,7 +96,7 @@ header{
 /* seach container */
 
 #search-container{
-    background-image: url("../img/banner.jpg");
+    background-image: url("../img/eventoss.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -223,12 +240,28 @@ header{
     margin-top: 20px;
 }
 
+.social-icons {
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+.social-icons a {
+    margin-right: 15px; /* Espaçamento entre os ícones */
+    color: #007bff; /* Cor azul para os ícones */
+    font-size: 24px; /* Tamanho do ícone */
+    transition: color 0.3s ease; /* Transição suave da cor */
+}
+
+.social-icons a:hover {
+    color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+}
+
+
 
 /* footer */
 
 footer {
     text-align: center;
-    background-color: #353E48;
+    background: linear-gradient(to right, #20b2aa, #007b8a);
     color: #FFF;
     padding: 30px;
     position: absolute;
@@ -256,3 +289,8 @@ footer p {
     font-size: 12px;
 }
 
+
+.prime {
+    font-size: 196%;
+    width: 0%;
+}

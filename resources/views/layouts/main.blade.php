@@ -18,12 +18,19 @@
     <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse" id="navbar">
                 <a href="/" class="navbar-brand">
-                    <img src="/img/hdcevents_logo.svg" alt="HDC Events">
+                    <img src="/img/prime.png" alt="HDC Events">
                 </a>
-                <ul class="navbar-nav">
+                <div >
+                <h1  style = "padding-left: 70%;
+                font-size: 2.5rem;
+                display: grid;
+                justify-content: center;
+                margin-bottom: -1.5rem;" >Prime Eventos</h1>
+                </div>
+                <ul class="navbar-nav" style="font-size: 140%;">
                     <li class="nav-item">
                         <a href="/" class="nav-link">Eventos</a>
                     </li>

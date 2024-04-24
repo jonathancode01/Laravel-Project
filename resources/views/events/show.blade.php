@@ -14,6 +14,18 @@
             <p class="event-city"><ion-icon name="location-outline"></ion-icon> {{ $event->city }} </p>
             <p class="events-participants"><ion-icon name="people-outline"></ion-icon> {{count($event->users) }} Participantes</p>
             <p class="event-owner"><ion-icon name="star-outline"></ion-icon> {{ $eventOwner['name']}} </p>
+            <!-- Ícones de redes sociais -->
+            <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://api.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+        </div>
             @if(!$hasUserJoined)
 
             <form action="/events/join/{{ $event->id }}" method="POST">
