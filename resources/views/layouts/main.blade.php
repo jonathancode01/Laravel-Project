@@ -28,14 +28,12 @@
                 font-size: 2.5rem;
                 display: grid;
                 justify-content: center;
-                margin-bottom: -0.5rem;" >Prime Eventos</h1>
+                margin-bottom: -0.5rem;
+                margin-right: -50%;" >Diamond Convention Center</h1>
                 </div>
                 <ul class="navbar-nav" style="font-size: 140%;">
                     <li class="nav-item">
                         <a href="/" class="nav-link">Eventos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/events/create" class="nav-link">Criar Eventos</a>
                     </li>
                     @auth
                     <li class="nav-item">
